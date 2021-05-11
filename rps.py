@@ -1,8 +1,9 @@
+from random import randint
 play = ["Rock", "Paper", "Scissors"]
 
-computer = "Rock"
+computer = play[randint(0,2)]
 
 player = "Paper"
 
 if(computer == player):
-    pass
+    print("무승부")
