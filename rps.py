@@ -4,5 +4,4 @@ computer = "Rock"
 
 player = "Paper"
 
-if(computer == player):
-    pass
+print('player {}'.format(player))
