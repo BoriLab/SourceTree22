@@ -5,9 +5,9 @@ computer = play[randint(0,2)]
 
 player = "Paper"
 
-<<<<<<< HEAD
+
 print('player {}'.format(player))
-=======
-if(computer == player):
-    print("무승부")
->>>>>>> Random
+
+
+if player == computer:
+    print("tie")
